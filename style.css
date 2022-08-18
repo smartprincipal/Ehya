@@ -10,6 +10,7 @@ body{
  background: linear-gradient(216.04deg, #27C0EF 13.84%, #00A8DB 83.53%);
  padding-left: 140px;
  padding-right: 140px;
+ height: 860px;
 }
 header{
  display: flex;
@@ -46,6 +47,8 @@ height: 38px;
 }
 .sub-hero-circle{
  display: flex;
+ gap: 50px;
+
 }
 .hero-content{
  color: #fff;
@@ -83,4 +86,24 @@ width: 459px;
  color: rgba(0, 168, 219, 1);
 font-size: 16px;
 font-weight: 500px;
+}
+.hero-img{
+ margin-top: 208px;
+ border: 2px solid gold;
+ width: 1038px;
+ height: 712px;
+}
+.img1{
+ padding-left: 137px;
+ margin-top: 26px;
+}
+.img2{
+position: relative;
+ top:-500px
+
+}
+.img3{
+ position: relative;
+ top: -806px;
+ right: -273px;
 }
