@@ -152,18 +152,17 @@ font-size: 36px;
 font-weight: 700;
 line-height: 52px;
 letter-spacing: 0.30000001192092896px;
-width: 390px;
+max-width: 390px;
 
 }
 
 .patners2-content p{
 margin-top: 24px;
 color: rgba(144, 163, 180, 1);
-width: 485px;
 font-size: 16px;
 font-weight: 400;
 line-height: 32px;
-letter-spacing: 0.30000001192092896px;
+max-width: 485px;
 }
 .patners2-content .ll{
  color: rgba(4, 170, 221, 1);
@@ -191,7 +190,7 @@ line-height: 52px;
 font-size: 16px;
 font-weight: 400;
 line-height: 32px;
-width: 485px;
+max-width: 485px;
 margin-top: 24.15px;
 }
 
@@ -208,6 +207,11 @@ margin-top: 24.15px;
  color: rgba(4, 170, 221, 1);
 font-size: 16px;
 font-weight: 700px;
+}
+
+.tt-image img{
+ width: 100%;
+ height: auto;
 }
 .section4{
  background-color: rgba(239, 251, 255, 1)
@@ -432,10 +436,6 @@ padding-bottom: 74px;
  nav{
   display: none;
  }
- /* .sub-hero-circle{
-  display: block;
-
- } */
  .hero-content h1{
   margin-top: 20px;
   font-size: 64px;
@@ -463,19 +463,22 @@ padding-bottom: 74px;
  .patners{
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  /* gap: 40px; */
   align-items: center;
   margin-top: 40px;
  }
  .patners2{
-  display: block;
+  display: flex;
+  flex-direction: column;
   margin-left: 20px;
+  gap: 0px;
   /* flex-direction: column; */
  }
+
  .phone{
   margin-top: 50px;
  width: 434px;
- /* height: 550.85px; */
+ height: 50px;
  /* transform: translate(50%); */
  margin-left: auto;
  margin-right: auto;
@@ -489,6 +492,188 @@ padding-bottom: 74px;
   margin-top: 10px;
   width: 165px;
  }
+ .patners2-content{
+  margin-left: 50px;
+ }
  
+ .patners2-content p{
+ margin-top: 10px;
+ color: rgba(144, 163, 180, 1);
+ max-width: 380px;
+ }
+ .section3{
+  display: block;
+  padding-left: 50px;
+  margin-top: 80px;
+  margin-bottom: 43px;
+ }
+ .section3 .sch{
+  width: 446px;
+  color: rgba(3, 77, 130, 1);
+ font-size: 36px;
+ font-weight: 700;
+ line-height: 52px;
+ }
+ .section3 .pub{
+  color: rgba(144, 163, 180, 1);
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 32px;
+ width: 385px;
+ margin-top: 10px;
+ }
+ 
+ .bull{
+  margin-top: 14px;
+ }
+ .bull .same{
+  margin-right: 15px;
+ }
+
+ .tt-image{
+  margin-top: 40px;
+  margin-left: 25px;
+  width: 350px;
+ }
+ .flexx{
+  display: block ;
+  margin-top: 50px;
+  margin-bottom: 30px;
+ }
+ 
+ .flexxx{
+  margin-bottom: 20px;
+ }
  
  }
+ .section5{
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 46px;
+ }
+ .section5-1{
+  display: block;
+  margin-top: 50px;
+ }
+ .sub-sec5 h3{
+  width: 400px;
+  text-align: center;
+ }
+ .sub-sec5 .from{
+ text-align: center;
+ 
+ }
+ .sub-sub{
+  display: block;
+ }
+ 
+ .sub51 .gr{
+  padding-top: 30px;
+ /* width: 355px; */
+ margin-top: 15px;
+ margin-left: 40px;
+ }
+ 
+ .sub51 p:nth-child(even){
+ margin-top: 5px;
+ margin-left: 40px;
+ }
+ 
+ .sub-section5 .immg{
+  margin-left: 40px;
+  margin-top: 10px;
+  align-items: center;
+  margin-bottom: 40px;
+ }
+ .item1{
+  position: absolute;
+  left: 120px;
+ }
+ .item2{
+  position: absolute;
+  left: 143px;
+ }
+ .item3{
+  position: absolute;
+  left: 166px;
+ }
+ .item4{
+  position: absolute;
+  left: 192px;
+ }
+ .an {
+  margin-left: 15px;
+ }
+ .sub52-btnc{
+  position: relative
+ }
+ 
+ .sub52-btn{
+  position: relative;
+  top: -30px;
+  left: 80px;
+  margin-bottom: 0px;
+  
+ }
+
+ .footer1{
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  width: 100%;
+  align-items: center;
+
+ }
+ .foot{
+  padding-top: 20px;
+ }
+ .fot1{
+  margin-top: 10px;
+ font-size: 16px;
+ font-weight: 400px;
+ text-align: center;
+ }
+ .social-handles{
+  margin-top: 32px;
+ }
+ 
+ .foote{
+ font-size: 18px;
+ font-weight: 700px;
+ color: #fff;
+ margin-top: 15px;
+ }
+ .foot a{
+  color: #fff;
+  display: block;
+  text-decoration: none;
+ }
+ .foot a:hover{
+  color: gold;
+  cursor: pointer;
+  text-decoration: underline;
+ }
+ .fot{
+  margin-top: 8px;
+ font-size: 16px;
+ font-weight: 400px;
+ }
+ .fote{
+ font-size: 16px;
+ font-weight: 400px;
+ margin-top: 10px;
+ 
+ }
+ 
+ .footer2{
+  margin-top: 37px;
+ }
+ .footer2 img{
+  position: relative;
+  left: 200px;
+ }
+ .footer2 p{
+ text-align: center;
+ padding-bottom: 40px;
+ }
+}
