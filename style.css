@@ -48,6 +48,7 @@ nav a:hover{
 border-radius: 4px;
 width: 95px;
 height: 38px;
+border: none;
 }
 .sub-hero-circle{
  display: flex;
@@ -363,6 +364,61 @@ margin-left: 72px;
  border-radius: 4px;
  
 }
+footer{
+ background-color: rgba(8, 19, 21, 1);
+ 
+}
+.footer1{
+ display: flex;
+ padding-left: 140px;
+ gap: 90px;
+ width: 95%;
+}
+.foot{
+ padding-top: 88px;
+ color: rgba(211, 214, 216, 1);
+}
+.fot1{
+ margin-top: 20px;
+font-size: 16px;
+font-weight: 400px;
+line-height: 28px;
+}
+.social-handles{
+ margin-top: 32px;
+}
+
+.foote{
+font-size: 18px;
+font-weight: 700px;
+color: #fff;
+}
+.fot{
+ margin-top: 33px;
+font-size: 16px;
+font-weight: 400px;
+}
+.fote{
+font-size: 16px;
+font-weight: 400px;
+margin-top: 25px;
+
+}
+
+.footer2{
+ margin-top: 97px;
+}
+.footer2 img{
+ position: relative;
+ left: 750px;
+}
+.footer2 p{
+ color: rgba(255, 255, 255, 1);
+font-size: 16px;
+font-weight: 700;
+text-align: center;
+padding-bottom: 74px;
+}
 
 @media screen and (max-width: 768px) {
  .hero-circle{
@@ -411,5 +467,28 @@ margin-left: 72px;
   align-items: center;
   margin-top: 40px;
  }
+ .patners2{
+  display: block;
+  margin-left: 20px;
+  /* flex-direction: column; */
+ }
+ .phone{
+  margin-top: 50px;
+ width: 434px;
+ /* height: 550.85px; */
+ /* transform: translate(50%); */
+ margin-left: auto;
+ margin-right: auto;
+ }
+ .phone-1{
+  width: 300px;
+ }
+ .phone-2{
+  position:absolute;
+  left: 210px;
+  margin-top: 10px;
+  width: 165px;
+ }
+ 
  
  }
