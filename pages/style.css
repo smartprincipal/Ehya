@@ -8,7 +8,7 @@
 
  background: linear-gradient(359.45deg, #4A99D3 -24.57%, rgba(74, 153, 211, 0) 76.31%) , #FFFFFF;
  height: 609px;
- opacity: 0.2;
+ /* opacity: 0.2; */
  /* transform: rotate(-180deg); */
  padding-left: 140px;
  padding-right: 140px;
@@ -58,7 +58,7 @@ font-weight: 500px;
 
 }
 .section2-container{
- width: 950px;
+ max-width: 950px;
  height: 638px;
  margin-left: auto;
  margin-right: auto;
@@ -227,6 +227,16 @@ footer{
  padding-top: 88px;
  color: rgba(211, 214, 216, 1);
 }
+.foot a{
+ display: flex;
+ flex-direction: column;
+ text-decoration: none;
+ color: #fff;
+}
+.foot a:hover{
+ text-decoration: underline;
+ color: gold;
+}
 .fot1{
  margin-top: 20px;
 font-size: 16px;
@@ -267,4 +277,123 @@ font-size: 16px;
 font-weight: 700;
 text-align: center;
 padding-bottom: 74px;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+ .hero-circle{
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 250px;
+ }
+ .hamburger{
+  display: block;
+ }
+ nav{
+  display: none;
+ }
+ .section2-container{
+  max-width: 450px;
+  height: 1000px;
+ top:-80px;
+ /* width: 85%; */
+ }
+ .section2 .g{
+  padding-top: 40px;
+  font-family: Objective;
+ }
+ .sub-section2{
+  display: block;
+  padding-left: 60px;
+  padding-right: 60px;
+ }
+ .first p{
+ margin-top: 40px;
+ margin-bottom: 20px;
+ 
+ }
+ .hhh{
+ width: 300px;
+ margin-bottom: 24px;
+ 
+ }
+ 
+ .hh{
+  width: 300px;
+ }
+ 
+ .btt{
+  width: 300px;
+  margin-bottom: 30px;
+ }
+ .gg{
+ margin-top: 20px;
+ margin-bottom: 20px;
+margin-left: 35px;
+ }
+ 
+ .socialss img{
+  margin-right: 20px;
+ }
+ .socialss{
+  margin-bottom: 30px;
+  margin-left: 35px;
+ }
+ 
+ .brown1{
+  display: none;
+ }
+ .brown2{
+  display: none;
+ }
+ 
+ .brown3{
+  display: none;
+ }
+ 
+ .blue1{
+  display: none;
+ }
+ 
+ .blue2{
+  display: none;
+ }
+ 
+ .blue3{
+  display: none;
+ }
+ 
+ .footer1{
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 50px;
+  gap: 50px;
+ }
+ .foot{
+  padding-top: 30px;
+ }
+ .fot1{
+  margin-top: 10px;
+ }
+ .social-handles{
+  margin-top: 20px;
+ }
+ 
+ .fot{
+  margin-top: 15px;
+ }
+ .fote{
+ margin-top: 15px;
+ }
+ 
+ .footer2{
+  margin-top: 27px;
+ }
+ .footer2 img{
+  position: relative;
+  left: 230px;
+ }
+ .footer2 p{
+ padding-bottom: 34px;
+ }
 }
