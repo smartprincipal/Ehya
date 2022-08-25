@@ -364,6 +364,7 @@ footer{
 }
 .footer1{
  display: flex;
+ flex-wrap: wrap;
  padding-left: 140px;
  gap: 90px;
  width: 95%;
@@ -619,8 +620,6 @@ padding-bottom: 74px;
   left: 80px;
  }
  .footer1{
-  display: flex;
-  flex-wrap: wrap;
   padding-left: 50px;
   gap: 50px;
  }
