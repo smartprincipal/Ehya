@@ -160,6 +160,10 @@ font-weight: 500px;
  margin-left: 148px;
  gap: 192px;
 
+ position: relative;
+}
+.parabolic{
+ position: absolute
 }
 .phone{
  margin-top: 125px;
@@ -207,7 +211,7 @@ text-decoration: none;
 .section3{
  display: flex;
  padding-left: 140px;
- margin-top: 140PX;
+ margin-top: 200PX;
  gap: 50px;
  margin-bottom: 80px;
 }
@@ -617,6 +621,11 @@ display: none;
   display: flex;
   flex-direction: column;
   margin-left: 40px;
+ }
+
+ .parabolic{
+  width: 330px;
+
  }
 
  .phone{
