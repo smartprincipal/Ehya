@@ -506,7 +506,7 @@ margin-top: 25px;
  margin-top: 97px;
 }
 .footer2 img{
- position: absolute;
+ position: relative;
  left: 750px;
 }
 .footer2 p{
