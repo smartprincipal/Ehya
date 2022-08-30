@@ -6,6 +6,7 @@
  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  <title>Enya</title>
  <link rel="stylesheet" href="style.css">
+ 
 </head>
 <body>
  <main>
@@ -19,10 +20,30 @@
       </svg>      
     </div>
     <nav>
-     <ul>
+
+     <ul class="menu-list" id="menu-list">
       <li><a href="#">Home</a></li>
-      <li><a href="#">Landing</a></li>
-      <li><a href="#">Pages</a></li>
+      <li id="landings"><a href="#">Landings
+        <i class="fa-thin fa-angle-down"></i>
+      </a>
+        <ul id="sub-landing" class="landing-menu">
+          <li><a href="#">Landing1</a></li>
+          <li><a href="#">Landing2</a></li>
+          <li><a href="#">Landing3</a></li>
+          <li><a href="#">Landing4</a></li>
+        </ul>
+      
+      
+      </li>
+      <li id="Pages"><a href="#">Pages</a>
+        <ul id="sub-pages" class="pages-menu">
+          <li>Pages</li>
+          <li>Pages</li>
+          <li>Pages</li>
+          <li>Pages</li>
+
+        </ul>
+      </li>
       <li><a href="#">Docs</a></li>
       <li><a href="/pages/contactus.html">Contact Us</a></li>
      </ul>
@@ -31,14 +52,15 @@
       </form>
     </nav>
     
-    <div class="hamburger">
+    <div class="hamburger" id="hamburger">
      <svg fill="#ffffff" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"/></svg>
     </div>
+    <div class="close" id="close"> &times </div>
    </header>
    <section class="sub-hero-circle">
     <article class="hero-content">
      <h1>
-      We help you <br> grow your business <br> faster
+      We help you grow your business faster
      </h1>
      <img class="vec" src="/asset/Vector.png" alt="">
      <p class="ehya">
@@ -54,10 +76,10 @@
      </div>
     </article>
     <article class="hero-img">
-      <img class="shape" src="/asset/Shape.png" alt="">
-     <img class="img1" src="/asset/grp7.png" alt="grp7">
+       <img class="shape" src="/asset/hero-overview.png" alt="hero-overview">
+      <!-- <img class="img1" src="/asset/grp7.png" alt="grp7">
      <img class="img2" src="/asset/graph-1.png" alt="jjj">
-     <img class="img3" src="/asset/graph-2.png" alt="hh">
+     <img class="img3" src="/asset/graph-2.png" alt="hh">  -->
      
     </article>
    </section>
@@ -318,6 +340,7 @@
       </section>
     </footer>
  </main>
+ <script src="script.js"></script>
  
 </body>
 </html>
