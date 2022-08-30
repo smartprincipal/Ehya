@@ -1,10 +1,6 @@
 let landings = document.getElementById('landings')
 let subLanding = document.getElementById('sub-landing')
-
-let menu= document.getElementById('menu-list')
-let close= document.getElementById('close')
-let hamburger= document.getElementById('hamburger')
-let logo = document.getElementById('logo')
+console.log(subLanding)
 
 landings.addEventListener('click', () => {
   subLanding.classList.toggle('landing-menu')
@@ -19,14 +15,21 @@ pages.addEventListener ('click', () => {
  subPages.classList.toggle('sub-pages')
 })
 
+let menu = document.getElementsByClassName('menu-list')
+let close = document.getElementById('close')
+let hamburger = document.getElementById('hamburger')
+console.log(menu)
+let logo = document.getElementById('logo')
+
 hamburger.addEventListener('click',() =>{
- hamburger.classList.add('hide-hamburger');
- menu.classList.toggle('active');
+  console.log('let me click')
+ hamburger.classList.toggle('hide-hamburger');
+ menu.classList.togggle('active');
  close.classList.toggle('show-close')
 })
 
-close.addEventListener('click', ()=>{
- hamburger.classList.add('hide-hamburger');
- menu.classList.toggle('show-close');
- close.classList.toggle('close')
-})
+// close.addEventListener('click', ()=>{
+//  hamburger.classList.toggle('hide-hamburger');
+//  menu.classList.toggle('show-close');
+//  close.classList.toggle('close')
+// })

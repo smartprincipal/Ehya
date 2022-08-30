@@ -39,9 +39,7 @@ li{
  text-decoration: underline;
  color: gold;
 }
-
-.su
-b-landing {
+.sub-landing {
  display: flex;
  flex-direction: column;
  list-style-type: none;
@@ -98,6 +96,7 @@ font-size: 14px;
 .sub-hero-circle{
  display: flex;
  gap: 50px;
+ /* justify-content: space-between; */
 
 }
 .hero-content{
@@ -139,9 +138,6 @@ font-weight: 500px;
 }
 .hero-img{
  margin-top: 208px;
- /* border: 2px solid gold; */
- /* width: 1038px; */
- /* height: 712px; */
 }
 .shape{
  position: absolute;
@@ -149,25 +145,12 @@ font-weight: 500px;
  /* left: 880px; */
  right: 0;
 }
-/* .img1{
- padding-left: 141px;
- margin-top: 26px;
-}
-.img2{
-position: relative;
- top:-500px
-
-}
-.img3{
- position: relative;
- top: -806px;
- right: -276px;
-} */
 
 .patners{
  display: flex;
  margin-top: 128px;
- gap: 96.39px;
+ /* gap: 96.39px; */
+ justify-content: space-between;
  margin-left: auto;
  margin-right: auto;
  width: 70%;
@@ -468,7 +451,8 @@ footer{
  display: flex;
  flex-wrap: wrap;
  padding-left: 140px;
- gap: 90px;
+ /* gap: 90px; */
+ justify-content: space-around;
  width: 95%;
 }
 .foot{
@@ -512,11 +496,13 @@ margin-top: 25px;
 
 }
 
+
+
 .footer2{
  margin-top: 97px;
 }
 .footer2 img{
- position: relative;
+ position: absolute;
  left: 750px;
 }
 .footer2 p{
@@ -547,7 +533,7 @@ padding-bottom: 74px;
  nav{
   display: none;
  }
- /* .close{
+ .close{
   font-size: 90px;
   position:absolute;
   top: -15px;
@@ -558,17 +544,17 @@ padding-bottom: 74px;
  }
  .close-times{
   display: none;
- } */
+ } 
 
- /* .menu-list{
-  /* display: none; */
-  /* min-height: 10vh; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* align-content: space-between; */
-  /* justify-content: space-between; */
- /* } */ 
- /* .close{
+  .menu-listlink{ 
+  display: none;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  justify-content: space-between;
+  } 
+  .close{
   display: none;
   font-size: 50px;
   font-weight: bolder;
@@ -576,8 +562,8 @@ padding-bottom: 74px;
   top: 30px;
   right: 30px;
   cursor: pointer;
- } */
- /* .menu{
+ } 
+  .menu{
   display: none;
  }
  .menu li {
@@ -590,17 +576,17 @@ padding-bottom: 74px;
  .hide-hamburger{
 display: none;
  }
+  
+  .show-close{
+   display: inline;
+   position: absolute;
+   top: 30px;
+   right: 40px;
+  }
+ 
  .active{
   display: block;
  }
- .show-close{
-  display: inline;
-  position: absolute;
-  top: 30px;
-  right: 40px;
- } */
-
-
 
 
  
