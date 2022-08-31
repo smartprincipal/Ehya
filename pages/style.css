@@ -115,14 +115,14 @@ margin-bottom: 35px;
  position: relative;
 
 }
-.first-name{
+.first-name-label{
  background-color: white;
  position: absolute;
  top: -10px;
  left: 15px;
  z-index: 1;
 }
-.hhh{
+.first-name{
 width: 350px;
 height: 50px;
 border: 1.2px solid #B4BEC8;
@@ -133,10 +133,10 @@ background-color: #FFFFFF;
 
 }
 
-.hhh::placeholder{
+.first-name::placeholder{
  font-size: 16px;
 font-weight: 400;
-width: 185px;
+width: 350px;
 height: 18px;
 color: #0F001A;
 opacity: 0.8;
@@ -175,7 +175,7 @@ opacity: 0.8;
 font-size: 16px;
 }
 
-.btt{
+.submit{
  width: 350px;
  height: 50px;
  background: #4A99D3;

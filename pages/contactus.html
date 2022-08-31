@@ -49,13 +49,22 @@
    </article>
   </div>
    <section class="sub-section2">
-     <form action="" class="form">
-      <label for="First_Name" class="first-name">Name</label>
-      <input class="hhh" type="text" placeholder="First_Name_Last_Name">
-      <input class="email" type="email" name="Email" id="" placeholder="Email Address">
-      <input class="text-here" type="text" placeholder="Your Message">
-      <input class="btt" type="submit" value="Send">
-     </form>
+     <form action="" class="form" method="GET" id="form">
+      <!-- First Name -->
+      <label for="First_Name" class="first-name-label" id="first-name-label">Name</label>
+      <input class="first-name" type="text" id="firstName" placeholder="First_Name_Last_Name">
+      
+      <!-- Email -->
+      <input class="email" type="email" name="Email" id="email" placeholder="Email Address">
+      
+      <!-- Text Here -->
+      <input class="text-here" type="text" placeholder="Your Message" id="textHere">
+      
+      <!-- Submit button -->
+      <input class="submit" id="submit" type="submit" value="Send">
+     
+    
+    </form>
     </article>
     <article class="second">
      <div class="gg">
@@ -161,5 +170,6 @@
       <p>Copyright &copy 2021. Crafted with love.</p>
   </section>
 </footer>
+<script src="/pages/script.js"></script>
 </body>
 </html>

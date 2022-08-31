@@ -21,11 +21,11 @@
     </div>
     <nav>
      <ul class="menu-list" id="menu-list">
-      <li><a href="#">Home</a></li>
-      <li id="landings"><a href="#">Landings
-        <i class="fa-thin fa-angle-down"></i>
+      <li><a href="#" onclick="w3-close">Home</a></li>
+      <li id="landings"><a onclick="w3-close" href="#">Landings &#129091;
+
       </a>
-        <ul id="sub-landing" class="landing-menu">
+        <ul id="sub-landing" class="landing-menu" >
           <li><a href="#">Landing1</a></li>
           <li><a href="#">Landing2</a></li>
           <li><a href="#">Landing3</a></li>
@@ -34,17 +34,17 @@
       
       
       </li>
-      <li id="Pages"><a href="#">Pages</a>
+      <li id="Pages"><a onclick="w3-close" href="#">Pages &#129091</a>
         <ul id="sub-pages" class="pages-menu">
-          <li>Pages</li>
-          <li>Pages</li>
-          <li>Pages</li>
-          <li>Pages</li>
+          <li><a href="#">About US</a></li>
+          <li><a href="/pages/contactus.html">Contact Us</a></li>
+          <li><a href="#">Audience</a></li>
+          <li><a href="#">Testimonials</a></li>
 
         </ul>
       </li>
-      <li><a href="#">Docs</a></li>
-      <li><a href="/pages/contactus.html">Contact Us</a></li>
+      <li><a onclick="w3-close" href="#">Docs</a></li>
+      <li><a onclick="w3-close" href="/pages/contactus.html">Contact Us</a></li>
      </ul>
      <form action="">
        <input class="btn1" type="submit" value="Login">
@@ -54,7 +54,7 @@
     <div class="hamburger" id="hamburger">
      <img src="./asset/icons8-menu.svg" alt="">
     </div>
-    <div class="close" id="close"> &times </div>
+    <div class="close" id="close" onclick="close"> &times </div>
    </header>
    <section class="sub-hero-circle">
     <article class="hero-content">
@@ -224,20 +224,62 @@
               “With Ehya, we’re able to easily track our performance in full detail. It’s become an essential tool for us to grow and engage with our audience.”
             </p>
           </div>
-          <div class="testimonial">
-            <div class="test">
-              <img src="/asset/Photo.png" alt="Photo">
+          <!-- <div class="testimonial"> -->
+            <div class="testimonial"
+
+              <!-- Full-width slides/quotes -->
+              <div class="mySlides">
+                <div class="test">
+                  <img src="/asset/Photo.png" alt="Photo">
+                </div>
+                <div class="name">
+                  <h3>
+                    Jaquon Hart
+                  </h3>
+                  <p>
+                    Digital Marketing Executive, Hypebeast
+                  </p>
+                </div>
+              </div>
+            
+              <div class="mySlides">
+                <div class="testimonial-image">
+                  <img src="/asset/Photo.png" alt="Photo">
+                </div>
+                <div class="name">
+                  <h3>
+                    Johnson Oluwayemi
+                  </h3>
+                  <p>
+                    Front-end Engineer, Worldwyz
+                  </p>
+                </div>
+              </div>
+            
+              <div class="mySlides">
+                <div class="test">
+                  <img src="/asset/Photo.png" alt="Photo">
+                </div>
+                <div class="name">
+                  <h3>
+                    Ahmed Yussuf
+                  </h3>
+                  <p>
+                    Digital Marketing Executive, Ahmmedolly
+                  </p>
+                </div>
+              
+              </div>
+            
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
             </div>
-            <div class="name">
-              <h3>
-                Jaquon Hart
-              </h3>
-              <p>
-                Digital Marketing Executive, Hypebeast
-              </p>
-            </div>
-            <div class="arrow">
-              <img src="/asset/arrow.png" alt="arrow">
+            
+            <div class="dot-container">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
             </div>
           </div>
         </article>
