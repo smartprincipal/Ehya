@@ -4,7 +4,7 @@ let subLanding = document.getElementById('sub-landing')
 let hamburger = document.getElementById('hamburger')
 let close = document.getElementById('close')
 // console.log(subLanding)
-console.log(close)
+// console.log(close)
 
 
 
@@ -22,13 +22,6 @@ close.addEventListener('click', ()=>{
 })
 
 
-
-
-
-
-
-
-
 landings.addEventListener('click', () => {
   subLanding.classList.toggle('landing-menu')
   subLanding.classList.toggle('sub-landing')
@@ -41,43 +34,6 @@ pages.addEventListener ('click', () => {
   subPages.classList.toggle('pages-menu')
   subPages.classList.toggle('sub-pages')
 })
-
-// let navToggle = () => {
-
-//   let navv = document.getElementById('navlink')
-//   // let menu = document.getElementsByClassName('menu-list')
-//   let close = document.getElementById('close')
-//   let hamburger = document.getElementById('hamburger')
-//   let logo = document.getElementById('logo')
-  
-//   hamburger.addEventListener('click',() =>{
-//     console.log('let me click')
-//  hamburger.classList.add('navv');
-//  navv.classList.togggle('active');
-//  close.classList.toggle('show-close')
-//  //  close.classList.add('menu')
-// })
-
-// }
-// navToggle()
-// console.log(navv)
-
-// close.addEventListener('click', ()=>{
-//  hamburger.classList.toggle('hide-hamburger');
-//  menu.classList.toggle('show-close');
-//  close.classList.toggle('close')
-// })
-
-// var menu = document.getElementById('menu-list');
-
-// function open(){
-//   if (menu.style.display === 'block'){
-//     menu.style.display= 'none';
-//   }else{
-//     menu.style.display= 'block';
-//   }
-// }
-
 
 // script for testimonial slide
 var slideIndex = 1;
@@ -103,6 +59,6 @@ function showSlides(n) {
     for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
     }
-  slides[slideIndex-1].style.display = "flex";
+  slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
