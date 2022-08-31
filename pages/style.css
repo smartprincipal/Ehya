@@ -22,33 +22,74 @@ header{
  align-items: center;
  padding-top: 47px;
 }
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding-top: 47px;
+}
 nav{
  display: flex;
  align-items: center;
+ margin-left: 35rem;
 }
-nav ul{
+nav #navLink{
  display: flex;
+ justify-content: space-between;
+ align-items: center;
+ /* margin-right: 50px; */
+ /* width: 80%; */
 }
 li{
  list-style-type: none;
 }
 
-nav a{
+#navLink a{
  text-decoration: none;
  color: #ffffff;
- margin-right: 44px;
- color: black;
+ padding-left: 20px;
+ /* margin-right: 44px; */
 }
-nav a:hover{
+#navLink a:hover{
  text-decoration: underline;
  color: gold;
+}
+.sub-landing {
+ display: flex;
+ flex-direction: column;
+ list-style-type: none;
+ margin-top: 10px;
+ color: gold;
+ position: absolute;
+}
+.sub-landing li{
+ margin-top: 10px;
+}
+
+.landing-menu {
+ display: none;
+}
+.sub-pages{
+ display: flex;
+ flex-direction: column;
+ list-style-type: none;
+ margin-top: 10px;
+ color: gold;
+ position: absolute;
+}
+.sub-pages li{
+ margin-top: 10px;
+}
+.pages-menu{
+ display: none;
 }
 
 .hamburger{
  display: none;
 }
-
-
+.close{
+ display: none;
+}
 .btn1{
  background:linear-gradient(278.21deg, #005490 1.66%, #328BCB 96.78%);
 border-radius: 4px;

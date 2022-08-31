@@ -18,23 +18,37 @@
      <path fill-rule="evenodd" clip-rule="evenodd" d="M73.7143 12C75.6078 12 77.1429 10.4649 77.1429 8.57139C77.1429 6.67785 75.6078 5.14282 73.7143 5.14282C71.8207 5.14282 70.2857 6.67785 70.2857 8.57139C70.2857 10.4649 71.8207 12 73.7143 12Z" fill="#005490"/>
      </svg>      
    </div>
-   <nav>
-    <ul>
-     <li><a href="/index.html">Home</a></li>
-     <li><a href="#">Landing</a></li>
-     <li><a href="#">Pages</a></li>
-     <li><a href="#">Docs</a></li>
+   <nav id="navLink">
+    <ul id="navLink">
+      <li><a href="">Home</a></li>
+      <li id="landings"><a href="">Landings  &#129091</a></li>
+      <ul id="sub-landing" class="landing-menu" >
+        <li><a href="#">Landing1</a></li>
+        <li><a href="#">Landing2</a></li>
+        <li><a href="#">Landing3</a></li>
+        <li><a href="#">Landing4</a></li>
+      </ul>
+      <li><a href="">Pages &#129091</a></li>
+      <ul id="sub-pages" class="pages-menu">
+        <li><a href="#">About US</a></li>
+        <li><a href="/pages/contactus.html">Contact Us</a></li>
+        <li><a href="#">Audience</a></li>
+        <li><a href="#">Testimonials</a></li>
+      </ul>
+      <li><a href="">Docs</a></li>
+      <li><a href="/pages/contactus.html">Contact Us</a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
     </ul>
- 
-    
-    <form action="">
-      <input class="btn1" type="submit" value="Login">
-     </form>
-   </nav>
-   
-   <div class="hamburger">
-    <svg fill="#000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><path d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z"/></svg>
-   </div>
+        </nav>
+        <form action="">
+          <input class="btn1" type="submit" value="Login">
+         </form>
+        <div class="hamburger" id="hamburger">
+         <img src="./asset/icons8-menu.svg" alt="">
+        </div>
+        <div class="close" id="close"> &times </div>
   </header>
   <img class="dots" src="/pages/asset/dots.png" alt="dots">
  </section>
