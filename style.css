@@ -2,7 +2,6 @@
  padding: 0px;
  margin: 0px;
  box-sizing: border-box;
- /* overflow-x: hidden; */
 }
 body{
  font-family: DM Sans;
@@ -95,8 +94,7 @@ font-size: 14px;
 }
 .sub-hero-circle{
  display: flex;
- gap: 50px;
- /* justify-content: space-between; */
+ justify-content: space-between;
 
 }
 .hero-content{
@@ -142,14 +140,12 @@ font-weight: 500px;
 .shape{
  position: absolute;
  top: 180px;
- /* left: 880px; */
  right: 0;
 }
 
 .patners{
  display: flex;
  margin-top: 128px;
- /* gap: 96.39px; */
  justify-content: space-between;
  margin-left: auto;
  margin-right: auto;
@@ -280,7 +276,6 @@ margin-top: 24px;
 
 .flexx{
  display: flex ;
- /* gap: 36px; */
  justify-content: space-between;
  flex-wrap: wrap;
  padding-left: 140px;
