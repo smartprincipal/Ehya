@@ -21,20 +21,26 @@ header{
 nav{
  display: flex;
  align-items: center;
+ margin-left: 35rem;
 }
-nav .menu-list{
+nav #navLink{
  display: flex;
+ justify-content: space-between;
+ align-items: center;
+ /* margin-right: 50px; */
+ /* width: 80%; */
 }
 li{
  list-style-type: none;
 }
 
-.menu-list a{
+#navLink a{
  text-decoration: none;
  color: #ffffff;
- margin-right: 44px;
+ padding-left: 20px;
+ /* margin-right: 44px; */
 }
-.menu-list a:hover{
+#navLink a:hover{
  text-decoration: underline;
  color: gold;
 }
@@ -581,9 +587,9 @@ padding-bottom: 74px;
  }
  .hamburger{
   display: block;
-  /* position: absolute; */
-  /* top: 10px; */
-  /* right: 30px; */
+  position: absolute;
+  top: 10px;
+  right: 50px;
   cursor: pointer;
  }
  nav{
@@ -601,10 +607,27 @@ padding-bottom: 74px;
  .close-times{
   display: none;
  } 
+ .btn1{
+  display: none;
+ }
+#navLink{
+  display: none;
+  position: absolute;
+right: 50px;
+height: 100vh;
+top: 5vh;
+width: 100%;
+background-color: #005490;
+    /* min-height: 10vh; */
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    /* justify-content: space-between;  */
+}
 
   .menu-listlink{ 
-  display: none;
-  min-height: 10vh;
+  /* display: none; */
+  /* min-height: 10vh; */
   display: flex;
   flex-direction: column;
   align-content: space-between;
@@ -622,7 +645,7 @@ padding-bottom: 74px;
   .menu{
   display: none;
  }
- .menu li {
+ #navLink li {
     text-align: center;
     margin: 15px auto;
 }
@@ -643,7 +666,9 @@ display: none;
  .active{
   display: block;
  }
-
+.navMove{
+  transform: translateX(0%);
+}
 
  
  .hero-content h1{

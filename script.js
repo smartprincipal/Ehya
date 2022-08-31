@@ -1,6 +1,33 @@
+let navt = document.querySelector('#navLink')
 let landings = document.getElementById('landings')
 let subLanding = document.getElementById('sub-landing')
-console.log(subLanding)
+let hamburger = document.getElementById('hamburger')
+let close = document.getElementById('close')
+// console.log(subLanding)
+console.log(close)
+
+
+
+hamburger.addEventListener('click', () =>{
+  navt.style.opacity = 0
+  close.style.display ="block"
+  hamburger.style.opacity = 0
+  
+})
+
+close.addEventListener('click', ()=>{
+  navt.style.opacity = 1
+  hamburger.style.opacity = 1
+  close.style.opacity =0
+})
+
+
+
+
+
+
+
+
 
 landings.addEventListener('click', () => {
   subLanding.classList.toggle('landing-menu')
@@ -11,23 +38,29 @@ let pages = document.getElementById('Pages')
 let subPages = document.getElementById('sub-pages')
 
 pages.addEventListener ('click', () => {
- subPages.classList.toggle('pages-menu')
- subPages.classList.toggle('sub-pages')
+  subPages.classList.toggle('pages-menu')
+  subPages.classList.toggle('sub-pages')
 })
 
-let menu = document.getElementsByClassName('menu-list')
-let close = document.getElementById('close')
-let hamburger = document.getElementById('hamburger')
-console.log(menu)
-let logo = document.getElementById('logo')
+// let navToggle = () => {
 
-hamburger.addEventListener('click',() =>{
-  console.log('let me click')
- hamburger.classList.toggle('menu-listlink');
- menu.classList.togggle('active');
- close.classList.toggle('show-close')
- close.classList.add('menu')
-})
+//   let navv = document.getElementById('navlink')
+//   // let menu = document.getElementsByClassName('menu-list')
+//   let close = document.getElementById('close')
+//   let hamburger = document.getElementById('hamburger')
+//   let logo = document.getElementById('logo')
+  
+//   hamburger.addEventListener('click',() =>{
+//     console.log('let me click')
+//  hamburger.classList.add('navv');
+//  navv.classList.togggle('active');
+//  close.classList.toggle('show-close')
+//  //  close.classList.add('menu')
+// })
+
+// }
+// navToggle()
+// console.log(navv)
 
 // close.addEventListener('click', ()=>{
 //  hamburger.classList.toggle('hide-hamburger');
@@ -45,6 +78,8 @@ hamburger.addEventListener('click',() =>{
 //   }
 // }
 
+
+// script for testimonial slide
 var slideIndex = 1;
 showSlides(slideIndex);
 
