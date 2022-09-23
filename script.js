@@ -1,39 +1,73 @@
-let navt = document.querySelector('#navLink')
-let landings = document.getElementById('landings')
-let subLanding = document.getElementById('sub-landing')
-let hamburger = document.getElementById('hamburger')
-let close = document.getElementById('close')
+// let navt = document.querySelector('#navLink')
+// let landings = document.getElementsByClassName('landings')
+// let subLanding = document.getElementById('sub-landing')
+// let hamburger = document.getElementById('hamburger')
+// let close = document.getElementById('close')
 // console.log(subLanding)
 // console.log(close)
 
 
 
-hamburger.addEventListener('click', () =>{
-  navt.style.opacity = 0
-  close.style.display ="block"
-  hamburger.style.opacity = 0
+// hamburger.addEventListener('click', () =>{
+//   navt.style.opacity = 0
+//   close.style.display ="block"
+//   hamburger.style.opacity = 0
   
-})
+// })
 
-close.addEventListener('click', ()=>{
-  navt.style.opacity = 1
-  hamburger.style.opacity = 1
-  close.style.opacity =0
-})
+// close.addEventListener('click', ()=>{
+//   navt.style.opacity = 1
+//   hamburger.style.opacity = 1
+//   close.style.opacity =0
+// })
 
 
-landings.addEventListener('click', () => {
-  subLanding.classList.toggle('landing-menu')
-  subLanding.classList.toggle('sub-landing')
-})
+// landings.addEventListener('click', () => {
+//   subLanding.classList.toggle('landing-menu')
+//   subLanding.classList.toggle('sub-landing')
+// })
 
-let pages = document.getElementById('Pages')
-let subPages = document.getElementById('sub-pages')
+// let pages = document.getElementById('Pages')
+// let subPages = document.getElementById('sub-pages')
 
-pages.addEventListener ('click', () => {
-  subPages.classList.toggle('pages-menu')
-  subPages.classList.toggle('sub-pages')
-})
+// pages.addEventListener ('click', () => {
+//   subPages.classList.toggle('pages-menu')
+//   subPages.classList.toggle('sub-pages')
+// })
+
+
+const menuIcon = document.querySelector(".hamburger");
+const navBar = document.querySelector(".menu");
+const times = document.getElementById("close");
+
+menuIcon.addEventListener("click", () => {
+    menuIcon.classList.toggle("deactive");
+  navBar.classList.toggle("show-menu");
+  times.classList.toggle("show-close");
+});
+
+times.addEventListener("click", () => {
+  navBar.classList.toggle("show-menu");
+  menuIcon.classList.toggle("deactive")
+  times.classList.toggle("show-close");
+
+});
+
+let landings = document.getElementById("landings");
+let subLanding = document.getElementById("sub-landing");
+
+landings.addEventListener("click", () => {
+  subLanding.classList.toggle("landing-menu");
+  subLanding.classList.toggle("sub-landing");
+});
+
+let pages = document.getElementById("pages");
+let subPages = document.getElementById("sub-pages");
+
+pages.addEventListener("click", () => {
+  subPages.classList.toggle("pages-menu");
+  subPages.classList.toggle("sub-pages");
+});
 
 // script for testimonial slide
 var slideIndex = 1;
